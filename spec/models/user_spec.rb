@@ -21,7 +21,7 @@ RSpec.describe User, type: :model do
   end
 
   it ':recent_posts should return 3 recent posts' do
-    3.times { Post.create(author:subject, title: 'Title1', text: 'Post text1') }
+    3.times { Post.create(author: subject, title: 'Title1', text: 'Post text1') }
     expect(subject.recent_posts.size).to eq(3)
   end
 end
