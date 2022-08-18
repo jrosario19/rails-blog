@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+@import "font-awesome";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,4 +25,16 @@
 body {
   padding: 1rem;
   font-family: 'Roboto', sans-serif;
+}
+
+input,
+label {
+  display: block;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
