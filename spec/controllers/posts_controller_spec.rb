@@ -14,7 +14,7 @@ RSpec.describe 'Posts', type: :request do
 
     it 'the response body of index includes correct placeholder text' do
       get user_posts_path(1)
-      expect(response.body).to include('Post List')
+      expect(response.body).to include('Number of posts')
     end
   end
 
@@ -29,7 +29,7 @@ RSpec.describe 'Posts', type: :request do
     end
     it 'the response body of show includes correct placeholder text' do
       get user_post_path(1, 2)
-      expect(response.body).to include('Post')
+      expect(response.body).to include('Comments')
     end
   end
 end
