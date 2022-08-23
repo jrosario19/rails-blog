@@ -45,6 +45,11 @@ This will create a directory in the name of the project folder.
 - Twitter: [@jrosario19](https://twitter.com/jrosario19)
 - LinkedIn: [Juan Fco. Rosario](https://linkedin.com/in/juan-francisco-rosario-suli-44595051)
 
+👤 **Andres Agudelo**
+
+- GitHub: [@anagudelogu](https://github.com/anagudelogu)
+- Twitter: [@AgudeloAndres\_\_](https://twitter.com/AgudeloAndres__)
+- LinkedIn: [Andres Agudelo Guzman](https://linkedin.com/in/aagst)
 
 ## 🤝 Contributing
 
