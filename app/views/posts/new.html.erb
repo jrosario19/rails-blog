@@ -1,7 +1,12 @@
+
 <%= form_with model: @post, url: user_posts_path(@user) do |f| %>
-    <%= f.label :title %>
-    <%=f.text_field :title%>
-    <%= f.label :text %>
-    <%=f.text_area :text%>
-    <%=f.submit%>
+  <h2 class="sign-up-title">New Post</h2>
+  <div class="field-container-reg-new">
+    <%= f.label :title, :class => 'field-label'%>
+    <%=f.text_field :title, :class => 'field-label'%>
+    <%= f.label :text, :class => 'field-label' %>
+    <%=f.text_area :text, :class => 'field-label post-text-area'%>
+    <%=f.submit :class => 'field-label'%>
+  </div>
+    
   <% end %>

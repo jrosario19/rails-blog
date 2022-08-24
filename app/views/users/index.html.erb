@@ -1,4 +1,5 @@
 <div class="user-list">
+<%= link_to "New Post", new_user_post_path(current_user), class: "new-post-button"  %>
   <% @users.each do |user| %>
     <div class="user">
       <div class="user--avatar">
