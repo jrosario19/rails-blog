@@ -27,6 +27,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.header-custom{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.loggedin-as {
+  margin-right: 15px;
+}
+
 input,
 label {
   display: block;
