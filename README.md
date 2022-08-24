@@ -37,6 +37,11 @@ This will create a directory in the name of the project folder.
 ### Tests
 - Run `rspec` to run the tests
 
+### Troubleshooting
+In case you face a problem with the gem bootsnap due to the platform you run the project, follow the next instructions:
+- In order for you to be able to run the project successfully in windows platform you have to change the bootsnap gem to `gem 'bootsnap', '>= 1.1.0', '< 1.4.2', require: false`.
+- In order for you to be able to run the project successfully in Ubuntu platform you have to change the bootsnap gem to `gem "bootsnap", "~> 1.13", require: false`.
+
 ## Authors
 
 👤 **Juan Francisco Rosario Suli**
