@@ -37,6 +37,19 @@ body {
   margin-right: 15px;
 }
 
+.field-container-reg-new,
+.sign-up-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field-label,
+.field-text{
+  width: 600px;
+}
+
 input,
 label {
   display: block;
